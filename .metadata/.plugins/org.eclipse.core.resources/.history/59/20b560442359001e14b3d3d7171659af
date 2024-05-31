@@ -1,0 +1,23 @@
+package Coding;
+
+// not understand
+public class PrimeNumber {
+public static void main(String[] args) {
+	
+
+	
+	int number=29;
+	
+	boolean flag=true;
+	
+	for(int i=2; i <=number/2; i++ ) {
+		
+		if(number %2==0) {
+			flag=false;
+			break;
+		}
+	}
+	
+	
+}
+}

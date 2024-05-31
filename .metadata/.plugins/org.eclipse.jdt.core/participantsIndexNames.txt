@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+E:\Logic\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3565413327.index
+\E-commerce\MyCart\src
+E:\Logic\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\669665580.index
+\E-commerce\MyCart\src
+E:\Logic\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\517361699.index
+\JtProject\src\main\java

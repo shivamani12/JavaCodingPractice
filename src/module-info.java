@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author stoma
+ *
+ */
+module Logic {
+}

@@ -1,0 +1,23 @@
+Reduce->
+~~~~~~~~~~~~~
+Definition: The reduce method in Java 8 is used with the Stream API to combine elements in a stream into a single result.
+Parameters: It takes an initial (identity) value and a binary operator (function) as parameters.
+Use Cases: It can be used to perform various types of reductions, such as summing elements, finding the maximum/minimum value, or custom operations like string concatenation.
+Example: stream.reduce(identity, binaryOperator)
+Benefits: Provides a more declarative way to process data without explicit loops.
+
+
+*) mapToInt->
+
+What is mapToInt?
+In Java 8, mapToInt is like a magic wand for numbers in streams.
+How does it work?
+It turns things in a stream into numbers (specifically, into an IntStream).
+Why is it useful?
+You can use it to find sums, averages, or perform other math operations on your data.
+Example:
+If you have a bunch of ages in a stream, mapToInt can help you add them up easily.
+Customization:
+You can handle defaults or transform different objects into numbers as needed.
+
+

@@ -1,0 +1,10 @@
+-XX:+ShowCodeDetailsInExceptionMessages
+-agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:63328
+"-javaagent:C:\\Users\\stoma\\eclipse\\jee-2023-09\\eclipse\\configuration\\org.eclipse.osgi\\435\\0\\.cp\\lib\\javaagent-shaded.jar"
+-Dfile.encoding=UTF-8
+-Dstdout.encoding=UTF-8
+-Dstderr.encoding=UTF-8
+-p
+"E:\\Drive E\\Logic\\bin"
+-m
+Logic/KsString.ReverseStringRecursive

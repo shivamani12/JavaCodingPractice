@@ -1,0 +1,20 @@
+package Coding;
+
+public class Anagram {
+
+	public static void main(String[] args) {
+		
+		
+		String str="Race";
+		String str2="Care";
+		
+		str=str.toLowerCase();
+		str2=str2.toLowerCase();
+		
+		
+		char[] charStr=str.toCharArray();
+		char[]=charStr=str2.toCharArray();
+				
+				
+	}
+}

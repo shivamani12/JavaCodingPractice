@@ -1,0 +1,14 @@
+package codign;
+
+
+//Prime Number Check: Write a for loop to check if a given number is prime.
+
+public class PrimeNumber {
+public static void main(String[] args) {
+	
+	
+	
+	
+	
+}
+}

@@ -1,0 +1,100 @@
+package Coding;
+
+import java.util.Arrays;
+
+// FindTheSecondLargestNumber in an array
+
+public class FindTheSecondLargestNumber {
+
+	public static void main(String[] args) {
+		
+			int a[]= {8,4,6,2,19,20};
+			
+			int temp;
+			for(int i=0; i<=a.length-1; i++) {
+				for(int j=i+1; j<=a.length-1; j++) {
+	//				System.out.println(a[i]+"=i"+a[j]+"=j");
+					if(a[i] < a[j] ) {
+					temp=a[i];
+					a[i]=a[j];
+					a[j]=temp;
+					} 
+				}
+				if(i==1){   // at the time of i=1 iteration two value will be sort so we dont have to perform complete iteration
+					break;
+				}
+			}
+			
+			for(int num:a) {
+				
+			}
+			
+			System.out.println(a[1]);
+			
+			
+			
+		
+//int[] numbers = {10, 23, 45, 8, 56, 31, 17};
+//        
+//        if (numbers.length < 2) {
+//            System.out.println("Array doesn't have a second-largest element.");
+//            return;
+//        }
+//
+//        int firstLargest = Integer.MIN_VALUE;
+//        int secondLargest = Integer.MIN_VALUE;
+//        
+//        System.out.println(firstLargest);
+//        System.out.println(secondLargest);
+//
+//        for (int number : numbers) {
+//            if (number > firstLargest) {
+//                secondLargest = firstLargest;
+//                firstLargest = number;
+//            } else if (number > secondLargest && number != firstLargest) {
+//                secondLargest = number;
+//            }
+//        }
+//
+//        if (secondLargest != Integer.MIN_VALUE) {
+//            System.out.println("The second-largest number is: " + secondLargest);
+//        } else {
+//            System.out.println("There is no second-largest number in the array.");
+//        }
+
+		
+//int[] numbers = {10, 23, 45, 8, 56, 31, 17};
+//        
+//        if (numbers.length < 2) {
+//            System.out.println("Array doesn't have a second-largest element.");
+//            return;
+//        }
+//
+//        int firstLargest = Integer.MIN_VALUE;
+//        int secondLargest = Integer.MIN_VALUE;
+//
+//        for(int number : numbers) {
+//        	
+//        	if (number > firstLargest) {
+//        		 secondLargest=firstLargest;
+//        		 firstLargest=number;
+//         		}else if(number> secondLargest && number!=firstLargest) {
+//         			secondLargest=number;
+//         		}
+//        	if (secondLargest != Integer.MIN_VALUE) {
+//              System.out.println("The second-largest number is: " + secondLargest);
+//          } else {
+//              System.out.println("There is no second-largest number in the array.");
+//          }
+//         			
+//         		
+//        }
+//	}
+	
+			
+	
+	}
+	
+	
+	
+}

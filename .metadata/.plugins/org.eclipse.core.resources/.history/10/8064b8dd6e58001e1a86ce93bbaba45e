@@ -1,0 +1,30 @@
+package job;
+
+import java.util.Arrays;
+import java.util.*;
+
+public class exam {
+public static void main(String[] args) {
+	
+	
+	int Darr[]= {1,2,3,4,55,55,55};
+	
+	Set<Integer> Uset=new HashSet<>();
+	
+	for(int num: Uset) {
+		Uset.add(num);
+	}
+	
+	// convert into array
+	
+	int[] arrNoD=new int[Uset.size()];
+	
+	int index=0;
+	
+	for(int num: arrNoD) {
+		
+	}
+	
+	
+}
+}

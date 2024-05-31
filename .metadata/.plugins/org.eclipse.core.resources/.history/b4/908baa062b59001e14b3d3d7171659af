@@ -1,0 +1,13 @@
+package Coding;
+
+public class PalindromInt {
+public static void main(String[] args) {
+	
+	
+	int a= 1234;
+	
+	
+	
+	
+}
+}

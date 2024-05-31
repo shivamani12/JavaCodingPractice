@@ -1,0 +1,17 @@
+package Coding;
+
+import java.util.Arrays;
+
+public class PalindromInt {
+public static void main(String[] args) {
+	
+	
+	int a= 1234;
+	
+	int digits[]=new int[4];
+	
+	
+	
+	
+}
+}

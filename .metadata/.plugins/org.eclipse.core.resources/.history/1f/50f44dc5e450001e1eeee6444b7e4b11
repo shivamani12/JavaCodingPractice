@@ -1,0 +1,7 @@
+package com.DesignPatterns;
+
+public class EagerInitializedSingleton {
+	private static final EagerInitializedSingleton=new EagerInitializedSingleton();
+	
+			
+}
